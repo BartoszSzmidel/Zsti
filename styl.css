@@ -1,0 +1,47 @@
+body {
+    font-family: Georgia;
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+
+header, footer {
+    background-color: #824555;
+    text-align: center;
+    padding: 20px;
+}
+
+.lewy, main {
+    width: 30%;
+    height: 350px;
+}
+
+.lewy {
+    background-color: #A26475;
+}
+
+main {
+    background-color: #824555;
+}
+
+.prawy {
+    background-color: #A26470;
+    width: 40%;
+    height: 350px;
+    overflow: auto;
+}
+
+p, table, dt {
+    margin: 10px;
+}
+
+dt {
+    padding-top: 20px;
+}
+
+th, td {
+    border: #824555 3px solid;
+    padding: 5px;
+}
